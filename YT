@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>https://youtu.be/M7-h3FO-KKo?si=jq_RwY4vr3ZVjRJa</title>
+</head>
+<body>
+
+<!-- Tempat untuk menampilkan video YouTube -->
+<div =jq_RwY4vr3ZVjRJa"></div>
+
+<script>
+  // ID video YouTube yang ingin ditampilkan
+  constjq_RwY4vr3ZVjRJa; // Ganti dengan ID video YouTube yang sesuai
+
+  // Mengatur opsi pemutaran video
+  const options = {
+    height: '360',
+    width: '640',
+    playerVars: {
+      autoplay: 3 // Atur untuk autoplay
+    }
+  };
+
+  // Membuat pemutar video YouTube
+  const player = new YT.Player('player', {
+    videoId:=jq_RwY4vr3ZVjRJa
+    playerVars: options
+  });
+
+  // Fungsi untuk memuat YouTube API
+  function onYouTubeIframeAPIReady() {
+    // Memanggil fungsi untuk membuat pemutar video
+    player;
+  }
+</script>
+
+<!-- Memuat script API YouTube -->
+<script src="https://www.youtube.com/iframe_api"></script>
+
+</body>
+</html>
